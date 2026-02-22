@@ -1,7 +1,7 @@
 def FizzBuzz(start, finish):
     out = []
-    for n in range(start, finishi +1):
-        if n % 3 == 0 and n % 5 ==0:
+    for n in range(start, finish +1):
+        if n % 3 == 0 and n % 5 == 0:
             out.append('fizzbuzz')
         elif n % 3 == 0:
             out.append('fizz')
@@ -10,4 +10,5 @@ def FizzBuzz(start, finish):
         else:
             out.append(n)
     return out
+
 
