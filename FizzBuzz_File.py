@@ -1,5 +1,13 @@
-
-
 def FizzBuzz(start, finish):
-    v = ['buzz', 41, 'fizz', 43, 424, 'fizzbuzz']
-    return(v)
+    out = []
+    for n in range(start, finishi +1):
+        if n % 3 == 0 and n % 5 ==0:
+            out.append('fizzbuzz')
+        elif n % 3 == 0:
+            out.append('fizz')
+        elif n % 5 == 0:
+            out.append('buzz')
+        else:
+            out.append(n)
+    return out
+
